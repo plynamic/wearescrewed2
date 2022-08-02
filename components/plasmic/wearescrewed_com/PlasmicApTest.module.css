@@ -274,11 +274,12 @@
   max-width: 100%;
   object-fit: cover;
   position: relative;
-  width: 1069px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
   transform: translateX(0px) translateY(-70px) translateZ(0px);
   pointer-events: none;
-  flex-shrink: 0;
+  min-width: 0;
+  min-height: 0;
 }
 .apush {
   display: flex;

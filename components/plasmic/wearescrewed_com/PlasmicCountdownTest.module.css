@@ -339,6 +339,13 @@
   font-family: "Fugaz One";
   min-width: 0;
 }
+.text__rCoxT {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
 .bounceImage:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
@@ -425,12 +432,5 @@
   max-width: 100%;
   text-align: right;
   margin-right: 21px;
-  min-width: 0;
-}
-.text__dZzuP {
-  position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 800px;
   min-width: 0;
 }

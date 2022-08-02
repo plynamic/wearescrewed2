@@ -448,6 +448,23 @@ function PlasmicCountdownTest__RenderFunc(props: {
             </div>
           ) : null}
 
+          <div
+            className={classNames(
+              projectcss.all,
+              projectcss.__wab_text,
+              sty.text__rCoxT
+            )}
+          >
+            <React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ color: "#03E5F6" }}
+              >
+                {"I WONDER IF THIS WORKS"}
+              </span>
+            </React.Fragment>
+          </div>
+
           {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
             <Reveal
               data-plasmic-name={"bounceImage"}
@@ -514,16 +531,6 @@ function PlasmicCountdownTest__RenderFunc(props: {
                 : hasVariant(globalVariants, "screen", "tablet")
                 ? "wearescrewed v2.0\nTablet"
                 : "wearescrewed v2.0\nDesktop"}
-            </div>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__dZzuP
-              )}
-            >
-              {"testv11.1.0"}
             </div>
           </div>
         </div>
