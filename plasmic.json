@@ -1,0 +1,696 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "5dGW8Awro3qq8Hh5MveXLP",
+      "projectApiToken": "wVHvHSTRyoO1MQddr5ypmW8AfwiMMy7h0Iaj4Q2YmYLLEo2A4L6pLn8Fydm8wQkTAJV9uAD5bJPo8bmGg",
+      "projectName": "lottie-react",
+      "version": "1.0.0",
+      "cssFilePath": "plasmic/lottie_react/plasmic_lottie_react.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "BPNsJ2qis6",
+          "name": "LottieWrapper",
+          "componentImportPath": "@plasmicpkgs/lottie-react"
+        }
+      ]
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": "0.0.3",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic_plasmic_nav.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ]
+    },
+    {
+      "projectId": "84wxoth5npGrp6RRXPL88z",
+      "projectApiToken": "hOzXksPB8gkTrKnfJeV9VDS8m8dnIXQn1xxDQZ5MHxv9orQY6JNgwmk6aDMZPLkocV2KtD9gNJXv5JwIbbzIQ",
+      "projectName": "react-scroll-parallax-global",
+      "version": "4.0.2",
+      "cssFilePath": "plasmic/react_scroll_parallax_global/plasmic_react_scroll_parallax_global.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "bozP4lLlAZ",
+          "name": "ParallaxWrapper",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        },
+        {
+          "id": "L6MfauX2Cw",
+          "name": "ParallaxProviderWrapper",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        }
+      ]
+    },
+    {
+      "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
+      "projectApiToken": "DWg4EVpu2l6n6fAdMDCvE22FFoWH1NK3ZmqmXnzezysh5ZWic03cixuobavnSG7W2O29VnLlgnyQp1TAijQ",
+      "projectName": "antd",
+      "version": "2.3.0",
+      "cssFilePath": "plasmic/antd/plasmic_antd.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "kv6Mk_JNYw",
+          "name": "Button",
+          "componentImportPath": "antd/lib/button"
+        },
+        {
+          "id": "iBC45mjTXv",
+          "name": "Slider",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerSlider"
+        },
+        {
+          "id": "tRueht1jub",
+          "name": "Switch",
+          "componentImportPath": "antd/lib/switch"
+        },
+        {
+          "id": "YRr0RPAdEj",
+          "name": "Option",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "Ay1H491feg",
+          "name": "OptGroup",
+          "componentImportPath": "rc-select"
+        },
+        {
+          "id": "2YpGIhkzkpc",
+          "name": "Select",
+          "componentImportPath": "antd/lib/select"
+        },
+        {
+          "id": "yegZ392NLoV",
+          "name": "CollapsePanel",
+          "componentImportPath": "antd/lib/collapse/CollapsePanel"
+        },
+        {
+          "id": "F10gpQ1ZhXY",
+          "name": "Collapse",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerCollapse"
+        },
+        {
+          "id": "SAEWraOT2YV",
+          "name": "Checkbox",
+          "componentImportPath": "antd/lib/checkbox/Checkbox"
+        },
+        {
+          "id": "m5zFS-kMOL-",
+          "name": "CheckboxGroup",
+          "componentImportPath": "antd/lib/checkbox/Group"
+        },
+        {
+          "id": "6DZuSUEKjFh",
+          "name": "MenuDivider",
+          "componentImportPath": "antd/lib/menu/MenuDivider"
+        },
+        {
+          "id": "HZ6EmQgIQJr",
+          "name": "MenuItem",
+          "componentImportPath": "antd/lib/menu/MenuItem"
+        },
+        {
+          "id": "LGE6ExNG8fZ",
+          "name": "ItemGroup",
+          "componentImportPath": "rc-menu"
+        },
+        {
+          "id": "DSwQm8gUYob",
+          "name": "SubMenu",
+          "componentImportPath": "antd/lib/menu/SubMenu"
+        },
+        {
+          "id": "Iz_hLKpHZDg",
+          "name": "Menu",
+          "componentImportPath": "antd/lib/menu/index"
+        },
+        {
+          "id": "_C8wcdH3BDp",
+          "name": "Carousel",
+          "componentImportPath": "antd/lib/carousel"
+        },
+        {
+          "id": "tO9wrxr8Nbb",
+          "name": "Input",
+          "componentImportPath": "antd/lib/input"
+        },
+        {
+          "id": "ZJIPHLoTjkN",
+          "name": "TextArea",
+          "componentImportPath": "antd/lib/input/TextArea"
+        },
+        {
+          "id": "zDcn8vsMldu",
+          "name": "Search",
+          "componentImportPath": "antd/lib/input/Search"
+        },
+        {
+          "id": "fTDg0FM1tnD",
+          "name": "Password",
+          "componentImportPath": "antd/lib/input/Password"
+        },
+        {
+          "id": "uZueUXuqePq",
+          "name": "InputGroup",
+          "componentImportPath": "antd/lib/input/Group"
+        },
+        {
+          "id": "cv59X4q0WK",
+          "name": "Dropdown",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerDropdown"
+        },
+        {
+          "id": "cHUYQj2aKK",
+          "name": "DropdownButton",
+          "componentImportPath": "antd/lib/dropdown/dropdown-button"
+        },
+        {
+          "id": "p3HNI5RglT",
+          "name": "TabPane",
+          "componentImportPath": "rc-tabs"
+        },
+        {
+          "id": "Hb-DVgvuk3",
+          "name": "Tabs",
+          "componentImportPath": "@plasmicpkgs/antd/skinny/registerTabs"
+        },
+        {
+          "id": "Q0BhxRa-Moi",
+          "name": "Rate",
+          "componentImportPath": "antd/lib/rate"
+        }
+      ]
+    },
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "3.0.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ]
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "3.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ]
+    },
+    {
+      "projectId": "szjgMQpPpxhmkjnaBvZQJG",
+      "projectApiToken": "xBIsrWHdWZ9kVgFEGUt29LOZPWfm0XidYqRHqPhQXsEjDHevjIbp44nEYMIZ46YOoxrN8anfXjreTkDtFjTA",
+      "projectName": "react-parallax-tilt",
+      "version": "2.0.0",
+      "cssFilePath": "plasmic/react_parallax_tilt/plasmic_react_parallax_tilt.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "PfY466VIuq",
+          "name": "Tilt",
+          "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
+        }
+      ]
+    },
+    {
+      "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+      "projectApiToken": "0kTuQbqvmeN4Vnsa8uXv4vMrVJML9inDuZ7ViyDJWiz5jnLVLO7iRt481TSeYnuwhoZBdhq6wgXVBx46w",
+      "projectName": "wearescrewed.com",
+      "version": "latest",
+      "cssFilePath": "plasmic/wearescrewed_com/plasmic_wearescrewed_com.module.css",
+      "components": [
+        {
+          "id": "wp8aN1nRyzNZ",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "9nNgL_VGh2",
+          "name": "Timecountdown1",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicTimecountdown1.tsx",
+          "importSpec": {
+            "modulePath": "Timecountdown1.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicTimecountdown1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qbHLJt6pyv",
+          "name": "PreAlphaTest",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicPreAlphaTest.tsx",
+          "importSpec": {
+            "modulePath": "../pages/testold.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicPreAlphaTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "FnyG8lQBcG",
+          "name": "Timecountdown2",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicTimecountdown2.tsx",
+          "importSpec": {
+            "modulePath": "Timecountdown2.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicTimecountdown2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "B1hANTKjxi",
+          "name": "NewPage",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicNewPage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicNewPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "vCsmFDPh-Q_",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "-dFV_3-_4crC",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "w2qKNxx_-2",
+          "name": "Update",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicUpdate.tsx",
+          "importSpec": {
+            "modulePath": "../pages/update.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicUpdate.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "s984pKIGW0",
+          "name": "CountdownTest",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicCountdownTest.tsx",
+          "importSpec": {
+            "modulePath": "../pages/testy.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicCountdownTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UFMfu7u2sk",
+          "name": "QuizletsTest",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicQuizletsTest.tsx",
+          "importSpec": {
+            "modulePath": "../pages/quizletstest.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicQuizletsTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "rnRbq7zahH9",
+          "name": "Homepageold",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicHomepageold.tsx",
+          "importSpec": {
+            "modulePath": "../pages/-2.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicHomepageold.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "-oO_1wtpEQ",
+          "name": "ApTest",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicApTest.tsx",
+          "importSpec": {
+            "modulePath": "../pages/aptesty.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicApTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "NZ4IwD42SN",
+          "name": "HeaderV1",
+          "type": "managed",
+          "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+          "renderModuleFilePath": "plasmic/wearescrewed_com/PlasmicHeaderV1.tsx",
+          "importSpec": {
+            "modulePath": "HeaderV1.tsx"
+          },
+          "cssFilePath": "plasmic/wearescrewed_com/PlasmicHeaderV1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "VCWKZ9t0Yc9",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "ZGoBIb9AIsM",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Xs2LVWX0cVdy",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "UxVf44mBTMF2",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "T1UXyvBqCUGd",
+          "name": "Searchsvg2Icon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Searchsvg2.tsx"
+        },
+        {
+          "id": "I4De0lhK8B4W",
+          "name": "UsersvgIcon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Usersvg.tsx"
+        },
+        {
+          "id": "bvTtsYvZ69lc",
+          "name": "CartsvgIcon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Cartsvg.tsx"
+        },
+        {
+          "id": "_40HicKyS_m7",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "2IsCtXiBZzWv",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "r8mhYQtmZ6Z0",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/wearescrewed_com/icons/PlasmicIcon__Icon28.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "coWNcHBCo",
+          "name": "imageedit_1_7520095357.png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/imageedit17520095357Png.png"
+        },
+        {
+          "id": "C3DIh1ZdPUY2",
+          "name": "image",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image.svg"
+        },
+        {
+          "id": "29Ox94ButjNn",
+          "name": "image 2",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image2.jpeg"
+        },
+        {
+          "id": "YoMcgl6ThYd2",
+          "name": "image 3",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image3.jpeg"
+        },
+        {
+          "id": "Ld0gkmC594hB",
+          "name": "image 4",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image4.jpeg"
+        },
+        {
+          "id": "GjNURtch5bEL",
+          "name": "image 5",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image5.jpeg"
+        },
+        {
+          "id": "m4PhP2zWyBiu",
+          "name": "image 6",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image6.jpeg"
+        },
+        {
+          "id": "0zrdLH8B4c7_",
+          "name": "image 7",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image7.jpeg"
+        },
+        {
+          "id": "CJe6qELgpswU",
+          "name": "image 8",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image8.jpeg"
+        },
+        {
+          "id": "c3IFIi74p129",
+          "name": "image 9",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image9.jpeg"
+        },
+        {
+          "id": "ump3d3CFlgi4",
+          "name": "image 10",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image10.jpeg"
+        },
+        {
+          "id": "nrG3T3Yy3Ask",
+          "name": "image 11",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image11.jpeg"
+        },
+        {
+          "id": "qieLnlpKm",
+          "name": "Screenshot (153).png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/screenshot153Png.png"
+        },
+        {
+          "id": "VLFqlAYxM",
+          "name": "Screenshot (159).png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/screenshot159Png.png"
+        },
+        {
+          "id": "hsMrpuZZl",
+          "name": "white-hamburger-menu-icon-24.jpg",
+          "filePath": "../public/plasmic/wearescrewed_com/images/whiteHamburgerMenuIcon24Jpg.png"
+        },
+        {
+          "id": "QV2yDBLBd",
+          "name": "x-mark-32.png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/xMark32Png.png"
+        },
+        {
+          "id": "jXczReWp-",
+          "name": "x-mark-128.png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/xMark128Png.png"
+        },
+        {
+          "id": "Dyjza5dSd",
+          "name": "Screenshot (161) (Custom).png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/screenshot161Custompng.png"
+        },
+        {
+          "id": "2nBiMy_XK",
+          "name": "Screenshot (162) (Custom).png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/screenshot162Custompng.png"
+        },
+        {
+          "id": "WMEPLDsODK7",
+          "name": "image 12",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image12.svg"
+        },
+        {
+          "id": "dGTFad-bu",
+          "name": "Screenshot (51).png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/screenshot51Png.png"
+        },
+        {
+          "id": "eExs5nI-E",
+          "name": "among-us-dance.gif",
+          "filePath": "../public/plasmic/wearescrewed_com/images/amongUsDancegif.gif"
+        },
+        {
+          "id": "Yv3ciWERk",
+          "name": "imageedit_1_3107764100.png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/imageedit13107764100Png.png"
+        },
+        {
+          "id": "SfYnVvH1V",
+          "name": "imageedit_1_4855282688.png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/imageedit14855282688Png.png"
+        },
+        {
+          "id": "ZZFkaFUCR",
+          "name": "image 13",
+          "filePath": "../public/plasmic/wearescrewed_com/images/image13.png"
+        },
+        {
+          "id": "rXMwpdQXE",
+          "name": "4e9d87f8022d47f7cae6012efc96bb82.gif",
+          "filePath": "../public/plasmic/wearescrewed_com/images/_4E9D87F8022D47F7Cae6012Efc96Bb82Gif.gif"
+        },
+        {
+          "id": "LtrDc-yGV",
+          "name": "965361156631986186.gif",
+          "filePath": "../public/plasmic/wearescrewed_com/images/_965361156631986186Gif.gif"
+        },
+        {
+          "id": "KGFgK5ccz",
+          "name": "Screenshot (248).png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/screenshot248Png.png"
+        },
+        {
+          "id": "4KR-a_gx2",
+          "name": "Screenshot (249).png",
+          "filePath": "../public/plasmic/wearescrewed_com/images/screenshot249Png.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/wearescrewed_com/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "6EDLyFs6Xvmxe",
+        "name": "Screen",
+        "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
+        "contextFilePath": "plasmic/wearescrewed_com/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+}

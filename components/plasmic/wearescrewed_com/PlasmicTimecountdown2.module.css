@@ -1,0 +1,20 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.tilt:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.img__mVizv {
+  object-fit: cover;
+}
+.img__mVizv > picture > img {
+  object-fit: cover;
+}
+.img__mVizv > .__wab_img-spacer > img {
+  object-fit: cover;
+}
