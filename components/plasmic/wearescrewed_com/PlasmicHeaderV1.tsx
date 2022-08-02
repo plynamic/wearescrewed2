@@ -168,7 +168,7 @@ function PlasmicHeaderV1__RenderFunc(props: {
         <Button
           className={classNames("__wab_instance", sty.button__jVtLa)}
           color={"softBlue" as const}
-          link={"http://wearescrewed.plasmic.site/aptesty" as const}
+          link={"/aptesty" as const}
           shape={
             hasVariant(globalVariants, "screen", "mobile")
               ? ("rounded" as const)
