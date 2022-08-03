@@ -309,9 +309,17 @@
   max-width: 100%;
   object-fit: cover;
   position: relative;
-  width: 100%;
-  transform: none;
-  height: 100%;
-  min-width: 0;
-  min-height: 0;
+  width: 534px;
+  transform: perspective(0px) scaleX(1.2) scaleY(1.2) scaleZ(1.2);
+  height: 135px;
+  align-self: center;
+  transform-origin: 62% 50%;
+  backface-visibility: visible;
+  perspective: 0px;
+  margin-top: 20px;
+  transform-style: preserve-3d;
+  flex-shrink: 0;
+}
+.apushCount * {
+  transform-style: preserve-3d;
 }

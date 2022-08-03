@@ -273,7 +273,7 @@ function PlasmicApTest__RenderFunc(props: {
                 data-plasmic-override={overrides.apushCount}
                 className={classNames("__wab_instance", sty.apushCount)}
                 code={
-                  '<script src="https://cdn.logwork.com/widget/countdown.js"></script>\r\n<a href="https://logwork.com/countdown-797e" class="countdown-timer" data-timezone="America/Chicago" data-textcolor="#dedede" data-date="2023-05-05 08:00" data-background="#dedede" data-digitscolor="#1a1a1a" data-unitscolor="#dedede">⠀</a>' as const
+                  '<script class="45b35c055f474f6ece43d5ef94cdfd1d" src="https://w.promofeatures.com/js/timer/45b35c055f474f6ece43d5ef94cdfd1d.js?v=1659471002"></script>' as const
                 }
               />
             </div>
