@@ -100,7 +100,7 @@ function PlasmicApTest__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      {}
+      <Head></Head>
 
       <style>{`
         body {
