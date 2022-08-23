@@ -93,12 +93,12 @@ function PlasmicHomepageold__RenderFunc(props: {
 
   const $props = args;
 
-  const [isN3243437Active, triggerN3243437ActiveProps] = useTrigger(
+  const [isN6452778Active, triggerN6452778ActiveProps] = useTrigger(
     "usePressed",
     {}
   );
   const triggers = {
-    active_3243437: isN3243437Active
+    active_6452778: isN6452778Active
   };
 
   return (
@@ -337,9 +337,9 @@ function PlasmicHomepageold__RenderFunc(props: {
                     projectcss.__wab_text,
                     sty.h5__zYfqQ
                   )}
-                  data-plasmic-trigger-props={[triggerN3243437ActiveProps]}
+                  data-plasmic-trigger-props={[triggerN6452778ActiveProps]}
                 >
-                  {triggers.active_3243437 ? (
+                  {triggers.active_6452778 ? (
                     <React.Fragment>
                       <span
                         className={"plasmic_default__all plasmic_default__span"}
