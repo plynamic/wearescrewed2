@@ -48,7 +48,7 @@
 .img__hL5Ox > picture > img {
   object-fit: cover;
 }
-.img__hL5Ox > .__wab_img-spacer > img {
+.img__hL5Ox > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .img__q4Pi2 {
@@ -58,16 +58,16 @@
 .img__q4Pi2 > picture > img {
   object-fit: cover;
 }
-.img__q4Pi2 > .__wab_img-spacer > img {
+.img__q4Pi2 > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
-.img__hF7Nr {
+.img__eamXn {
   object-fit: cover;
 }
-.img__hF7Nr > picture > img {
+.img__eamXn > picture > img {
   object-fit: cover;
 }
-.img__hF7Nr > .__wab_img-spacer > img {
+.img__eamXn > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .link__bDzWp {

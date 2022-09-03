@@ -310,7 +310,6 @@ function useBehavior<P extends pp.BaseTextInputProps>(
       root: "root",
       input: "input"
     },
-
     ref
   );
 }

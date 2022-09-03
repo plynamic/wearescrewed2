@@ -159,7 +159,7 @@
 .img > picture > img {
   object-fit: cover;
 }
-.img > .__wab_img-spacer > img {
+.img > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .text___4POhl {

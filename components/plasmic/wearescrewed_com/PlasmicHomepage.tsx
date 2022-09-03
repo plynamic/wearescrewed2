@@ -94,17 +94,17 @@ function PlasmicHomepage__RenderFunc(props: {
 
   const $props = args;
 
-  const [isN6452707Active, triggerN6452707ActiveProps] = useTrigger(
+  const [isN4660275Active, triggerN4660275ActiveProps] = useTrigger(
     "usePressed",
     {}
   );
-  const [isN6451925Active, triggerN6451925ActiveProps] = useTrigger(
+  const [isN4659472Active, triggerN4659472ActiveProps] = useTrigger(
     "usePressed",
     {}
   );
   const triggers = {
-    active_6452707: isN6452707Active,
-    active_6451925: isN6451925Active
+    active_4660275: isN4660275Active,
+    active_4659472: isN4659472Active
   };
 
   return (
@@ -510,9 +510,9 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.__wab_text,
                       sty.h5__luDlA
                     )}
-                    data-plasmic-trigger-props={[triggerN6452707ActiveProps]}
+                    data-plasmic-trigger-props={[triggerN4660275ActiveProps]}
                   >
-                    {triggers.active_6452707 ? (
+                    {triggers.active_4660275 ? (
                       <React.Fragment>
                         <span
                           className={
@@ -882,9 +882,9 @@ function PlasmicHomepage__RenderFunc(props: {
                       projectcss.__wab_text,
                       sty.h5___223Jp
                     )}
-                    data-plasmic-trigger-props={[triggerN6451925ActiveProps]}
+                    data-plasmic-trigger-props={[triggerN4659472ActiveProps]}
                   >
-                    {triggers.active_6451925 ? (
+                    {triggers.active_4659472 ? (
                       <React.Fragment>
                         <span
                           className={

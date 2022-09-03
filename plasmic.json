@@ -38,8 +38,7 @@
           "name": "LottieWrapper",
           "componentImportPath": "@plasmicpkgs/lottie-react"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -58,8 +57,7 @@
           "name": "NavigationBar",
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "84wxoth5npGrp6RRXPL88z",
@@ -83,8 +81,7 @@
           "name": "ParallaxProviderWrapper",
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "28Ba3BDvRe7EiWdfFNnLB6",
@@ -228,8 +225,7 @@
           "name": "Rate",
           "componentImportPath": "antd/lib/rate"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -257,9 +253,13 @@
           "id": "PKldDYkH42",
           "name": "Embed",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
@@ -278,8 +278,7 @@
           "name": "Reveal",
           "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "szjgMQpPpxhmkjnaBvZQJG",
@@ -298,8 +297,7 @@
           "name": "Tilt",
           "componentImportPath": "@plasmicpkgs/react-parallax-tilt"
         }
-      ],
-      "jsBundleThemes": []
+      ]
     },
     {
       "projectId": "3hhGRWLPdvgGCLMEoJyAMR",
@@ -681,7 +679,13 @@
       ],
       "indirect": false,
       "globalContextsFilePath": "plasmic/wearescrewed_com/PlasmicGlobalContextsProvider.tsx",
-      "codeComponents": []
+      "codeComponents": [
+        {
+          "id": "afpvD7_yb3",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        }
+      ]
     }
   ],
   "globalVariants": {

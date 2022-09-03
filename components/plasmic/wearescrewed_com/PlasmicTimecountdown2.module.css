@@ -9,12 +9,12 @@
   max-width: 100%;
   position: relative;
 }
-.img__mVizv {
+.img__xrAuh {
   object-fit: cover;
 }
-.img__mVizv > picture > img {
+.img__xrAuh > picture > img {
   object-fit: cover;
 }
-.img__mVizv > .__wab_img-spacer > img {
+.img__xrAuh > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }

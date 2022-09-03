@@ -154,7 +154,7 @@ function PlasmicPreAlphaTest__RenderFunc(props: {
             closeButton={
               <p.PlasmicImg
                 alt={""}
-                className={classNames(sty.img__hF7Nr)}
+                className={classNames(sty.img__eamXn)}
                 displayHeight={"auto" as const}
                 displayMaxHeight={"none" as const}
                 displayMaxWidth={"none" as const}
@@ -176,7 +176,7 @@ function PlasmicPreAlphaTest__RenderFunc(props: {
                     sty.link__bDzWp
                   )}
                   component={Link}
-                  href={"/testold" as const}
+                  href={`/testold`}
                   platform={"nextjs"}
                 >
                   {"Countdown"}
@@ -190,7 +190,7 @@ function PlasmicPreAlphaTest__RenderFunc(props: {
                     sty.link__wLl8W
                   )}
                   component={Link}
-                  href={"/" as const}
+                  href={`/`}
                   platform={"nextjs"}
                 >
                   {"About"}

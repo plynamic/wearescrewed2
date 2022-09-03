@@ -57,7 +57,7 @@
   object-fit: fill;
   object-position: center 50%;
 }
-.img__cIhGl > .__wab_img-spacer > img {
+.img__cIhGl > :global(.__wab_img-spacer) > img {
   object-fit: fill;
   object-position: center 50%;
 }
@@ -94,7 +94,7 @@
   object-fit: fill;
   object-position: center 50%;
 }
-.img__bq008 > .__wab_img-spacer > img {
+.img__bq008 > :global(.__wab_img-spacer) > img {
   object-fit: fill;
   object-position: center 50%;
 }
@@ -105,7 +105,7 @@
 .img__nazgE > picture > img {
   object-fit: cover;
 }
-.img__nazgE > .__wab_img-spacer > img {
+.img__nazgE > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .img___6PEQ {
@@ -114,7 +114,7 @@
 .img___6PEQ > picture > img {
   object-fit: contain;
 }
-.img___6PEQ > .__wab_img-spacer > img {
+.img___6PEQ > :global(.__wab_img-spacer) > img {
   object-fit: contain;
 }
 .link___3CrhQ {
@@ -213,7 +213,7 @@
 .mobileImage > picture > img {
   object-fit: cover;
 }
-.mobileImage > .__wab_img-spacer > img {
+.mobileImage > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 @media (max-width: 511px) {
@@ -380,7 +380,7 @@
 .img__rqc3V > picture > img {
   object-fit: cover;
 }
-.img__rqc3V > .__wab_img-spacer > img {
+.img__rqc3V > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 @media (max-width: 1023px) {

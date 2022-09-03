@@ -453,7 +453,7 @@
 
 :where(.root_reset .plasmic_default__h1),
 :where(.root_reset .h1),
-:where(.root_reset .__wab_expr_html_text h1),
+:where(.root_reset :global(.__wab_expr_html_text) h1),
 :where(.root_reset.plasmic_default__h1) {
   color: var(--mixin-pZW4CMvSCZ_color);
   font-weight: var(--mixin-pZW4CMvSCZ_font-weight);
@@ -464,7 +464,7 @@
 
 :where(.root_reset .plasmic_default__h2),
 :where(.root_reset .h2),
-:where(.root_reset .__wab_expr_html_text h2),
+:where(.root_reset :global(.__wab_expr_html_text) h2),
 :where(.root_reset.plasmic_default__h2) {
   font-family: var(--mixin-R88J2Q7VxS_font-family);
   color: var(--mixin-R88J2Q7VxS_color);
@@ -476,14 +476,14 @@
 
 :where(.root_reset .plasmic_default__a),
 :where(.root_reset .a),
-:where(.root_reset .__wab_expr_html_text a),
+:where(.root_reset :global(.__wab_expr_html_text) a),
 :where(.root_reset.plasmic_default__a) {
   color: var(--mixin-ZF5Y7SreQr_color);
 }
 
 :where(.root_reset .plasmic_default__h3),
 :where(.root_reset .h3),
-:where(.root_reset .__wab_expr_html_text h3),
+:where(.root_reset :global(.__wab_expr_html_text) h3),
 :where(.root_reset.plasmic_default__h3) {
   font-family: var(--mixin-0am8-5MAyc_font-family);
   color: var(--mixin-0am8-5MAyc_color);
@@ -495,7 +495,7 @@
 
 :where(.root_reset .plasmic_default__h4),
 :where(.root_reset .h4),
-:where(.root_reset .__wab_expr_html_text h4),
+:where(.root_reset :global(.__wab_expr_html_text) h4),
 :where(.root_reset.plasmic_default__h4) {
   font-family: var(--mixin-ee-NZaH6gz_font-family);
   color: var(--mixin-ee-NZaH6gz_color);
@@ -507,7 +507,7 @@
 
 :where(.root_reset .plasmic_default__code),
 :where(.root_reset .code),
-:where(.root_reset .__wab_expr_html_text code),
+:where(.root_reset :global(.__wab_expr_html_text) code),
 :where(.root_reset.plasmic_default__code) {
   background: var(--mixin-rdeb8tRnl-1_background);
   font-family: var(--mixin-rdeb8tRnl-1_font-family);
@@ -535,7 +535,7 @@
 
 :where(.root_reset .plasmic_default__blockquote),
 :where(.root_reset .blockquote),
-:where(.root_reset .__wab_expr_html_text blockquote),
+:where(.root_reset :global(.__wab_expr_html_text) blockquote),
 :where(.root_reset.plasmic_default__blockquote) {
   color: var(--mixin-mQ38-OOLLyy_color);
   padding-left: var(--mixin-mQ38-OOLLyy_padding-left);
@@ -546,7 +546,7 @@
 
 :where(.root_reset .plasmic_default__pre),
 :where(.root_reset .pre),
-:where(.root_reset .__wab_expr_html_text pre),
+:where(.root_reset :global(.__wab_expr_html_text) pre),
 :where(.root_reset.plasmic_default__pre) {
   background: var(--mixin-D1nVQQFGuDq_background);
   font-family: var(--mixin-D1nVQQFGuDq_font-family);
@@ -574,7 +574,7 @@
 
 :where(.root_reset .plasmic_default__ul),
 :where(.root_reset .ul),
-:where(.root_reset .__wab_expr_html_text ul),
+:where(.root_reset :global(.__wab_expr_html_text) ul),
 :where(.root_reset.plasmic_default__ul) {
   display: var(--mixin-umkoc1QdFvG_display);
   flex-direction: var(--mixin-umkoc1QdFvG_flex-direction);
@@ -589,7 +589,7 @@
 
 :where(.root_reset .plasmic_default__ol),
 :where(.root_reset .ol),
-:where(.root_reset .__wab_expr_html_text ol),
+:where(.root_reset :global(.__wab_expr_html_text) ol),
 :where(.root_reset.plasmic_default__ol) {
   display: var(--mixin-PvdY4tLRcez_display);
   flex-direction: var(--mixin-PvdY4tLRcez_flex-direction);
@@ -604,7 +604,7 @@
 
 :where(.root_reset .plasmic_default__h5),
 :where(.root_reset .h5),
-:where(.root_reset .__wab_expr_html_text h5),
+:where(.root_reset :global(.__wab_expr_html_text) h5),
 :where(.root_reset.plasmic_default__h5) {
   font-family: var(--mixin-TIpVUIQ_PE4_font-family);
   color: var(--mixin-TIpVUIQ_PE4_color);
@@ -616,7 +616,7 @@
 
 :where(.root_reset .plasmic_default__h6),
 :where(.root_reset .h6),
-:where(.root_reset .__wab_expr_html_text h6),
+:where(.root_reset :global(.__wab_expr_html_text) h6),
 :where(.root_reset.plasmic_default__h6) {
   font-family: var(--mixin-w3RVhDIi3aE_font-family);
   color: var(--mixin-w3RVhDIi3aE_color);
@@ -627,7 +627,7 @@
 
 :where(.root_reset .plasmic_default__a:hover),
 :where(.root_reset .a:hover),
-:where(.root_reset .__wab_expr_html_text a:hover),
+:where(.root_reset :global(.__wab_expr_html_text) a:hover),
 :where(.root_reset.plasmic_default__a:hover) {
   color: var(--mixin-uSsEFqu8izT_color);
 }

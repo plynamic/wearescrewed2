@@ -53,7 +53,7 @@
 .wearescrewedLogo > picture > img {
   object-fit: cover;
 }
-.wearescrewedLogo > .__wab_img-spacer > img {
+.wearescrewedLogo > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 @media (max-width: 1023px) {

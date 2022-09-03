@@ -163,7 +163,7 @@ function PlasmicApTest__RenderFunc(props: {
               <Button
                 className={classNames("__wab_instance", sty.button__bptIx)}
                 color={"softBlue" as const}
-                link={"/testy" as const}
+                link={`/testy`}
                 shape={"rounded" as const}
                 size={
                   hasVariant(globalVariants, "screen", "mobile")
@@ -187,7 +187,7 @@ function PlasmicApTest__RenderFunc(props: {
               <Button
                 className={classNames("__wab_instance", sty.button___4FQn5)}
                 color={"green" as const}
-                link={"/aptesty" as const}
+                link={`/aptesty`}
                 shape={
                   hasVariant(globalVariants, "screen", "mobile")
                     ? ("rounded" as const)

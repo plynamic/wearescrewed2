@@ -454,7 +454,7 @@
 
 :where(.root_reset .plasmic_default__h1),
 :where(.root_reset .h1),
-:where(.root_reset .__wab_expr_html_text h1),
+:where(.root_reset :global(.__wab_expr_html_text) h1),
 :where(.root_reset.plasmic_default__h1) {
   font-family: var(--mixin-IV2Wx3m6UOK_font-family);
   color: var(--mixin-IV2Wx3m6UOK_color);
@@ -466,7 +466,7 @@
 
 :where(.root_reset .plasmic_default__h2),
 :where(.root_reset .h2),
-:where(.root_reset .__wab_expr_html_text h2),
+:where(.root_reset :global(.__wab_expr_html_text) h2),
 :where(.root_reset.plasmic_default__h2) {
   font-family: var(--mixin-ezb_vf66eyd_font-family);
   color: var(--mixin-ezb_vf66eyd_color);
@@ -478,14 +478,14 @@
 
 :where(.root_reset .plasmic_default__a),
 :where(.root_reset .a),
-:where(.root_reset .__wab_expr_html_text a),
+:where(.root_reset :global(.__wab_expr_html_text) a),
 :where(.root_reset.plasmic_default__a) {
   color: var(--mixin-THiqnNKA8ct_color);
 }
 
 :where(.root_reset .plasmic_default__h3),
 :where(.root_reset .h3),
-:where(.root_reset .__wab_expr_html_text h3),
+:where(.root_reset :global(.__wab_expr_html_text) h3),
 :where(.root_reset.plasmic_default__h3) {
   font-family: var(--mixin-doI3QRtXh83_font-family);
   color: var(--mixin-doI3QRtXh83_color);
@@ -497,7 +497,7 @@
 
 :where(.root_reset .plasmic_default__h4),
 :where(.root_reset .h4),
-:where(.root_reset .__wab_expr_html_text h4),
+:where(.root_reset :global(.__wab_expr_html_text) h4),
 :where(.root_reset.plasmic_default__h4) {
   font-family: var(--mixin-nYPvDmk1VFZ_font-family);
   color: var(--mixin-nYPvDmk1VFZ_color);
@@ -509,7 +509,7 @@
 
 :where(.root_reset .plasmic_default__code),
 :where(.root_reset .code),
-:where(.root_reset .__wab_expr_html_text code),
+:where(.root_reset :global(.__wab_expr_html_text) code),
 :where(.root_reset.plasmic_default__code) {
   background: var(--mixin-Ivn4qS5kDxm_background);
   font-family: var(--mixin-Ivn4qS5kDxm_font-family);
@@ -537,7 +537,7 @@
 
 :where(.root_reset .plasmic_default__h5),
 :where(.root_reset .h5),
-:where(.root_reset .__wab_expr_html_text h5),
+:where(.root_reset :global(.__wab_expr_html_text) h5),
 :where(.root_reset.plasmic_default__h5) {
   font-family: var(--mixin-dHxpHtkQMKQ_font-family);
   color: var(--mixin-dHxpHtkQMKQ_color);
@@ -549,7 +549,7 @@
 
 :where(.root_reset .plasmic_default__h6),
 :where(.root_reset .h6),
-:where(.root_reset .__wab_expr_html_text h6),
+:where(.root_reset :global(.__wab_expr_html_text) h6),
 :where(.root_reset.plasmic_default__h6) {
   font-family: var(--mixin-Fchr9jqUqrU_font-family);
   color: var(--mixin-Fchr9jqUqrU_color);
@@ -560,14 +560,14 @@
 
 :where(.root_reset .plasmic_default__a:hover),
 :where(.root_reset .a:hover),
-:where(.root_reset .__wab_expr_html_text a:hover),
+:where(.root_reset :global(.__wab_expr_html_text) a:hover),
 :where(.root_reset.plasmic_default__a:hover) {
   color: var(--mixin-OtPHshbNcsm_color);
 }
 
 :where(.root_reset .plasmic_default__blockquote),
 :where(.root_reset .blockquote),
-:where(.root_reset .__wab_expr_html_text blockquote),
+:where(.root_reset :global(.__wab_expr_html_text) blockquote),
 :where(.root_reset.plasmic_default__blockquote) {
   color: var(--mixin--c_W_GIY4G4_color);
   padding-left: var(--mixin--c_W_GIY4G4_padding-left);
@@ -578,7 +578,7 @@
 
 :where(.root_reset .plasmic_default__pre),
 :where(.root_reset .pre),
-:where(.root_reset .__wab_expr_html_text pre),
+:where(.root_reset :global(.__wab_expr_html_text) pre),
 :where(.root_reset.plasmic_default__pre) {
   background: var(--mixin-FMuMTM9CVPJ_background);
   font-family: var(--mixin-FMuMTM9CVPJ_font-family);
@@ -606,7 +606,7 @@
 
 :where(.root_reset .plasmic_default__ol),
 :where(.root_reset .ol),
-:where(.root_reset .__wab_expr_html_text ol),
+:where(.root_reset :global(.__wab_expr_html_text) ol),
 :where(.root_reset.plasmic_default__ol) {
   display: var(--mixin-jGRfD9EqGnF_display);
   flex-direction: var(--mixin-jGRfD9EqGnF_flex-direction);
@@ -621,7 +621,7 @@
 
 :where(.root_reset .plasmic_default__ul),
 :where(.root_reset .ul),
-:where(.root_reset .__wab_expr_html_text ul),
+:where(.root_reset :global(.__wab_expr_html_text) ul),
 :where(.root_reset.plasmic_default__ul) {
   display: var(--mixin-EJW30CotH66_display);
   flex-direction: var(--mixin-EJW30CotH66_flex-direction);

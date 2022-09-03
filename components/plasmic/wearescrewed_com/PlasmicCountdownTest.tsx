@@ -262,7 +262,7 @@ function PlasmicCountdownTest__RenderFunc(props: {
                       sty.link___3CrhQ
                     )}
                     component={Link}
-                    href={"/testy" as const}
+                    href={`/testy`}
                     platform={"nextjs"}
                   >
                     {"Countdown"}
@@ -276,7 +276,7 @@ function PlasmicCountdownTest__RenderFunc(props: {
                       sty.link__wLl8W
                     )}
                     component={Link}
-                    href={"/" as const}
+                    href={`/`}
                     platform={"nextjs"}
                   >
                     {"About"}

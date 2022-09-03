@@ -132,7 +132,7 @@ function PlasmicNewPage__RenderFunc(props: {
                     className={classNames(
                       projectcss.all,
                       projectcss.a,
-                      sty.link__iPxJi
+                      sty.link__qKkh
                     )}
                     component={Link}
                     href={"#" as const}
@@ -140,7 +140,7 @@ function PlasmicNewPage__RenderFunc(props: {
                   >
                     <p.PlasmicImg
                       alt={""}
-                      className={classNames(sty.img___41D6)}
+                      className={classNames(sty.img__rTe7I)}
                       displayHeight={"40px" as const}
                       displayMaxHeight={"none" as const}
                       displayMaxWidth={"none" as const}
@@ -157,7 +157,7 @@ function PlasmicNewPage__RenderFunc(props: {
                 closeButton={
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__w5Upn)}
+                    className={classNames(sty.img__bAHx)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"none" as const}
@@ -175,7 +175,7 @@ function PlasmicNewPage__RenderFunc(props: {
                         projectcss.all,
                         projectcss.a,
                         projectcss.__wab_text,
-                        sty.link__k4Y7S
+                        sty.link___8KzU9
                       )}
                       component={Link}
                       href={"/" as const}
@@ -189,7 +189,7 @@ function PlasmicNewPage__RenderFunc(props: {
                         projectcss.all,
                         projectcss.a,
                         projectcss.__wab_text,
-                        sty.link___7X6Cz
+                        sty.link__eGs2U
                       )}
                       component={Link}
                       href={"/" as const}
@@ -203,7 +203,7 @@ function PlasmicNewPage__RenderFunc(props: {
                         projectcss.all,
                         projectcss.a,
                         projectcss.__wab_text,
-                        sty.link__ovGo
+                        sty.link__ziPuj
                       )}
                       component={Link}
                       href={"/" as const}
@@ -216,7 +216,7 @@ function PlasmicNewPage__RenderFunc(props: {
                 openButton={
                   <p.PlasmicImg
                     alt={""}
-                    className={classNames(sty.img__mhJrv)}
+                    className={classNames(sty.img__dxQzT)}
                     displayHeight={"auto" as const}
                     displayMaxHeight={"none" as const}
                     displayMaxWidth={"none" as const}

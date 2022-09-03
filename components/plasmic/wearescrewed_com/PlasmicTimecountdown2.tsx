@@ -103,7 +103,7 @@ function PlasmicTimecountdown2__RenderFunc(props: {
       >
         <p.PlasmicImg
           alt={""}
-          className={classNames(sty.img__mVizv)}
+          className={classNames(sty.img__xrAuh)}
           displayHeight={"auto" as const}
           displayMaxHeight={"none" as const}
           displayMaxWidth={"none" as const}

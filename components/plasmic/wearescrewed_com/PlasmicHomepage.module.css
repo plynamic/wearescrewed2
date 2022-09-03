@@ -53,7 +53,7 @@
 .img__fXbAn > picture > img {
   object-fit: cover;
 }
-.img__fXbAn > .__wab_img-spacer > img {
+.img__fXbAn > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .cat {
@@ -218,7 +218,7 @@
 .img__nBhtQ > picture > img {
   object-fit: cover;
 }
-.img__nBhtQ > .__wab_img-spacer > img {
+.img__nBhtQ > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .root .img__nBhtQ:hover {
@@ -307,7 +307,7 @@
 .img__porc8 > picture > img {
   object-fit: cover;
 }
-.img__porc8 > .__wab_img-spacer > img {
+.img__porc8 > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .root .img__porc8:hover {
@@ -344,7 +344,7 @@
 .img__o8BJ3 > picture > img {
   object-fit: cover;
 }
-.img__o8BJ3 > .__wab_img-spacer > img {
+.img__o8BJ3 > :global(.__wab_img-spacer) > img {
   object-fit: cover;
 }
 .text___5EN8E {
